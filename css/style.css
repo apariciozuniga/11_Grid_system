@@ -1,0 +1,22 @@
+.block{
+	background-color: #25BAC2;
+	width: 50%;
+	height: 50%;
+	display: inline-block;
+
+}
+
+.menu{
+	background-color: black;
+}
+li{
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1%;
+
+}
+
+p{
+	color:blue;
+}
