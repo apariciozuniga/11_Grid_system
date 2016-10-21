@@ -1,87 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Proyecto</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="shortcut icon" href="css/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
-</head>
-<body>
-	<header><!--Encabezado-->
-			<div class="container">
-				<div class="row">
-					<div class="col-3">
-						<img class="menu" src="img/logo.png" alt="Logo"><!--Logo-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Proyecto</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="css/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css	">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row menu">
+			 	<div class="col-xs-3 col-sm-3 col-lg-3">
+					<img  src="img/logo.png" alt="Logo"><!--Logo-->
+				</div>
+				<nav><!--navegador-->
+					<div class="col-xs-9 col-sm-9 col-lg-9 ">
+						<ul class="menu text-center" ><!--Menu-->
+							<a href="#"><li>LIVE</li></a>
+							<a href="#"><li>SHOWS</li></a>
+							<a href="#"><li>SUBSCRIBE</li></a>
+							<a href="#"><li>SCHEDULE</li></a>
+							<a href="#"><li>SUPPORT 5BY5</li></a>
+							<a href="#"><li>ADVERTISE</li></a>
+							<a href="#"><li>CONTACTO</li></a>	
+						</ul>
+					</div>
+				</nav>	
+			</div>
+			<header><!--Encabezado-->
+				<div class="row gray ">
+					<h1>Latest episodes <small>More episodes</small></h1> 
+					<div class="row text-center">
+						<div class="col-xs-12 col-sm-12 col-lg-12">
+							<div class="col-xs-3 col-sm-3 col-lg-3">
+								<img class="img-responsive img-thumbnail block" src="img/dlc.jpg"  class="top" alt="dlc">
+								<p class="blue">DLC 83</p>
 							</div>
-							<nav><!--navegador-->
-							<div class="col-9">
-				
-									<ul class="menu" ><!--Menu-->
-										<li>LIVE</li>
-										<li>SHOWS</li>
-										<li>SUBSCRIBE</li>
-										<li>SCHEDULE</li>
-										<li>SUPPORT 5BY5</li>
-										<li>ADVERTISE</li>
-										<li>CONTACTO</li>	
-									</ul>
-								</nav>
-					</div>
-				</div>
-			</div>
-	</header>
-	<article><!--Articulo-->
-		<div class="container">
-			<div class="row">
-				<div class="col-3">
-					<h2>Latest episodes</h2> <h5>More episodes</h5>
-					<div>
-						<img class="block" src="img/dlc.jpg" alt="dlc"><p>DLC 83</p>
-					</div>
-						<div>
-							<img class="block" src="img/almanac.jpg" alt="almanac"><p>The Inhatko Almanac 149</p>
-						</div>
-							<div>
-								<img class="block" src="img/onthegrid.jpg" alt="onthegrid"><p>On the grid 124</p>
+							<div class="col-xs-3 col-sm-3 col-lg-3">
+								<img class="img-responsive img-thumbnail block" src="img/almanac.jpg" class="top"  alt="almanac"><p class="blue">The Inhatko Almanac 149</p>
 							</div>
-								<div>
-							<img class="block" src="img/changelog.jpg" alt="changelog"><p>Changelog 165</p>
+							<div class="col-xs-3 col-sm-3 col-lg-3">
+								<img class="img-responsive img-thumbnail block" src="img/onthegrid.jpg"  class="top" alt="onthegrid">
+								<p class="blue">On the grid 124</p>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-lg-3">
+								<img class="img-responsive img-thumbnail block" src="img/changelog.jpg" class="top"  alt="changelog">
+								<p class="blue">Changelog 165</p>
+							</div>
 						</div>
 					</div>
-				</div>	
-		</div>
-	</article>
-	<section><!--Seccion-->
-		<div class="container">
+				</div>
+			</header>
 			<div class="row">
-				<div class="col-">	
-					 <img src="img/thumbs/amplified.jpg" alt="Amplificado">
-					 <img src="img/thumbs/back-to-work.jpg" alt="regresando">
-					 <img src="img/thumbs/the-big-show.jpg" alt="Bigshow">
-					 <img src="img/thumbs/better-know.jpg" alt="Perro">
-					 <img src="img/thumbs/cash-corner.jpg" alt="Dinero">
+				<div class="col-xs-12 col-sm-9 col-lg-9">
+					<section><!--Seccion1 con 5 imagenes-->
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										 <img src="img/thumbs/amplified.jpg" class="imagen img-responsive img-thumbnail" alt="Amplificado">
+										 <small>Amplified</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/back-to-work.jpg" class="imagen img-responsive img-thumbnail" alt="regresando">
+										<small>Back to work</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/the-big-show.jpg" class="imagen img-responsive img-thumbnail" alt="Bigshow">
+										<small>The big show</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/better-know.jpg" class="imagen img-responsive img-thumbnail" alt="Perro">
+										<small>Better know</small>
+										</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/cash-corner.jpg" class="imagen img-responsive img-thumbnail"  alt="Dinero">
+										<small>Cash corner</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
 
+					<section><!--Seccion2-->
+						<div class="row text-center">
+							<div class=" col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2  col-sm-2 col-lg-2">
+										 <img src="img/thumbs/change.jpg" class="imagen img-responsive img-thumbnail" alt="changelog">
+										 <small>Changelog</small>
+									</div>
+									<div class="col-xs-2  col-sm-2 col-lg-2">
+										<img src="img/thumbs/critical-path.jpg" class="imagen img-responsive img-thumbnail" alt="critical">
+										<small>Critical path</small>
+									</div>
+									<div class="col-xs-2  col-sm-2 col-lg-2">
+										<img src="img/thumbs/Dan.jpg" class="imagen img-responsive img-thumbnail" alt="dan">
+										<small>Dan</small>
+									</div>
+									<div class="col-xs-2  col-sm-2 col-lg-2">
+										<img src="img/thumbs/dlc.jpg" class="imagen img-responsive img-thumbnail" alt="DLC">
+										<small>DLC</small>
+										</div>
+									<div class="col-xs-2  col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/frequency.jpg" class="imagen img-responsive img-thumbnail"  alt="frecuency">
+										<small>Frequency</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
+					<section><!--Seccion3-->
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										 <img src="img/thumbs/home-work.jpg" class="imagen img-responsive img-thumbnail" alt="homework">
+										 <small>Home work</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/ihnatko.jpg" class="imagen img-responsive img-thumbnail" alt="ihnako">
+										<small>Ihnako</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/ohyes.jpg" class="imagen img-responsive img-thumbnail" alt="ohyes">
+										<small>Oh yes</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/getting-there.jpg" class="imagen img-responsive img-thumbnail" alt="getting-there">
+										<small>Getting there</small>
+										</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/movies.jpg" class="imagen img-responsive img-thumbnail"  alt="movies">
+										<small>Movies</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
+					<section><!--Seccion4-->
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										 <img src="img/thumbs/mac-power.jpg" class="imagen img-responsive img-thumbnail" alt="mac-power">
+										 <small>Mac power</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/on-the-grid.jpg" class="imagen img-responsive img-thumbnail" alt="on-the-grid">
+										<small>On -the grid</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/on-taking-pictures.jpg" class="imagen img-responsive img-thumbnail" alt="on-taking-pictures">
+										<small>On taking pictures</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/latest-paleo.jpg" class="imagen img-responsive img-thumbnail" alt="latest-paleo">
+										<small>Latest paleo</small>
+										</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/pipeline.jpg" class="imagen img-responsive img-thumbnail"  alt="pipeline">
+										<small>Pipeline</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
+					<section><!--Seccion5-->
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										 <img src="img/thumbs/pipeline-classic.jpg" class="imagen img-responsive img-thumbnail" alt="pipeline-classic">
+										 <small>Pipeline classic</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/podcast-method.jpg" class="imagen img-responsive img-thumbnail" alt="podcast-method">
+										<small>Podcast method</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/quit.jpg" class="imagen img-responsive img-thumbnail" alt="quit">
+										<small>Quit</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/ruby-on-rails-podcast.jpg" class="imagen img-responsive img-thumbnail" alt="ruby-on-rails-podcast">
+										<small>Ruby on rails podcast</small>
+										</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/specials.jpg" class="imagen img-responsive img-thumbnail"  alt="specials">
+										<small>Specials</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
+					<section><!--Seccion6-->
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										 <img src="img/thumbs/steady.jpg" class="imagen img-responsive img-thumbnail" alt="steady">
+										 <small>Steady</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/supercharged.jpg" class="imagen img-responsive img-thumbnail" alt="supercharged">
+										<small>Supercharged</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/web-ahead.jpg" class="imagen img-responsive img-thumbnail" alt="web-ahead">
+										<small>Web ahead</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/write-for-life.jpg" class="imagen img-responsive img-thumbnail" alt="write-for-life">
+										<small>Write for life</small>
+										</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/after-dark.jpg" class="imagen img-responsive img-thumbnail"  alt="after-dark">
+										<small>After dark</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
+					<section><!--Seccion7-->
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-12 col-lg-12">	
+								<div class="row">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										 <img src="img/thumbs/human-survival.jpg" class="imagen img-responsive img-thumbnail" alt="human-survival">
+										 <small>Human survival</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/morning-dump.jpg" class="imagen img-responsive img-thumbnail" alt="morning-dump">
+										<small>Morning dump</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/hablo-geek.jpg" class="imagen img-responsive img-thumbnail" alt="hablo-geek">
+										<small>Hablo geek</small>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<img src="img/thumbs/puromac.jpg" class="imagen img-responsive img-thumbnail" alt="puromac">
+										<small>Puro mac</small>
+										</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2"> 
+										<img src="img/thumbs/tech-douchebags.jpg" class="imagen img-responsive img-thumbnail"  alt="tech-douchebags">
+										<small>Tech douchebags</small>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-lg-3">
+					<aside><!-- aside falta hacer responsive con mediaqueries checar -->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-lg-12">
+								<p>Suscribete to 5by5</p>
+								<hr>
+								<div class="row">
+									<div class="col-xs-3 col-sm-3 col-lg-3">
+										<img src="img/icons/itunes.png" alt="">
+									</div>
+									<div class="col-xs-9 col-sm-9 col-lg-9">
+									<span>5by5 on iTunes</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3 col-sm-3 col-lg-3">
+										<img src="img/icons/rss.png" alt="">
+									</div>
+									<div class="col-xs-9 col-sm-9 col-lg-9">
+									<span>Master RSS Feed</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3 col-sm-3 col-lg-3">
+										<img src="img/icons/podcast.png" class="icons"  alt="">
+									</div>
+									<div class="col-xs-9 col-sm-9 col-lg-9">
+									<span>Pocket Casts</span>
+									</div>
+								</div>
+							</div>
+						</div><!--aqui termina suscribete to 5by5-->
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-lg-12">
+								<p> 5by5 Apps</p>
+								<hr>
+								<div class="row">
+									<div class="col-xs-3 col-sm-3 col-lg-3">
+										<img src="img/icons/radio.png" class="icons"  alt="">
+									</div>
+									<div class="col-xs-9 col-sm-9 col-lg-9">
+									<span>5by5 Radio by iOS</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3 col-sm-3 col-lg-3">
+										<img src="img/icons/pencil.png"  class="icons" alt="">
+									</div>
+									<div class="col-xs-9 col-sm-9 col-lg-9">
+									<span>5by5 Radio for Mac OS X</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-lg-12">
+									<hr>
+										<p>Brandwith for July 2015 is sponsored by CacheFly: The fastes, most reliable CDN in the business.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
 				</div>
 			</div>
-		</div>
-
-	</section>
-	<aside>
-		<div class="container">
-			<div class="row">
-				<div class="col-6">
+			<footer><!--Pie de pagina-->
+				<div class="row text-center foot">
+					<div class="col-xs-12 col-sm-12 col-lg-12">
+						<p class="parrafo">5by5 is a podcast network for geeks, designers, developers, gamers, entreprenurs, and people like you, with shows hosted by  people including Dan Benjamin, Merlin Mann, Horace Dediu and Jeffrey Zeldman.</p> <span> Read more...</span>
+					</div>
+					<div class="row text-center">
+						<div class="col-xs-12 col-sm-12 col-lg-12">
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Shows</a></li>
+								<li><a href="#">Suscribete</a></li>
+								<li><a href="#">iTunes</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Donate</a></li>
+								<li><a href="#">Advertise</a></li>
+								<li><a href="#">Newsletter</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-lg-12">
+							<footer>
+								<small id="color">Copyright &#169 2009-2015 by Dan Benjamin and 5by5 Productions LLC in Austin Texas.</small>
+							</footer>
+						</div>
+					</div>
 				</div>
-			</div>
+			</footer>
 		</div>
-	</aside>
-	<footer><!--Pie de pagina-->
-		<div class="container">
-			<div class="row">
-				<div class="col-12"></div>
-			</div>
-		</div>
-	</footer>
-	
-</body>
-</html> 
+	</body>
+</html>
